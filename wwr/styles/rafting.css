@@ -38,6 +38,11 @@ nav {
     display: flex;
 }
 
+.social-links a img {
+    width: 10px;
+    height: 10px;
+}
+
 nav a {
     display: block;
     color: var(--nav-link-color);
