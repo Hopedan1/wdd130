@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light background color */
+    font-size: 1.2em;
+    color: #333; /* Dark text color for good contrast */
+}
+
+header {
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding top and bottom */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Space below the header */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    color: navy;
+}
+
+header h1 {
+    font-size: 2em; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    margin: 0; /* Remove default margin */
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    display: grid;
+}
+
+fieldset {
+    display: grid; 
+    grid-gap: 10px; /* Space between grid items */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; 
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px; 
+    font-size: 1.2em; 
+    color: navy;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+label, input, button, select, textarea {
+    font-family: 'Arial', sans-serif; /* Different font family */
+    font-size: 1em; /* Standard font size */
+    margin-top: 10px; /* Margin at the top of each element */
+    padding: 10px; /* Padding inside the elements */
+    border-radius: 5px; /* Rounded corners */
+}
+
+label {
+    text-align: right;
+    padding: 1rem;
+}
+
+label[for="feedback"] {
+    text-align: center;
+}
+
+
+label[for="browser"] {
+    padding-right: 55px;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  display: block;
+}
+
+button:hover {
+  background-color: darkgreen;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Padding top and bottom */
+    margin-top: 20px; /* Space above the footer */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
